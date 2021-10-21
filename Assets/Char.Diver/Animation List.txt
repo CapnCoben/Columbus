@@ -1,0 +1,15 @@
+Diver Animations keyframe
+
+
+Idle 60-61
+walk 62-101
+run 102-132
+jump 133-183
+attack1 184-254
+attack2 255-325
+attack3 326-406
+attack4 407-477
+attack5 478-553 
+get hit 554-594
+dead 595-655
+
