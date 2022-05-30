@@ -1,18 +1,3 @@
-%YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7367eedddeee34d4788958ac50bce19c, type: 3}
-  m_Name: New Plant Object
-  m_EditorClassIdentifier: 
-  prefab: {fileID: 3763254735199689558, guid: d8220d7347501d745b5918ffe2f94931, type: 3}
-  type: 2
-  tradingPrice: 0
-  description: 
+version https://git-lfs.github.com/spec/v1
+oid sha256:d5ab42cf75bd8d8d2205f22aacd0894a0c8a146e16186ac8a45cc392d7091f9c
+size 538

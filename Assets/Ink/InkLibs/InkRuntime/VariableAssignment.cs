@@ -1,27 +1,3 @@
-﻿using System.ComponentModel;
-
-namespace Ink.Runtime
-{
-    // The value to be assigned is popped off the evaluation stack, so no need to keep it here
-    public class VariableAssignment : Runtime.Object
-    {
-        public string variableName { get; protected set; }
-        public bool isNewDeclaration { get; protected set; }
-        public bool isGlobal { get; set; }
-
-        public VariableAssignment (string variableName, bool isNewDeclaration)
-        {
-            this.variableName = variableName;
-            this.isNewDeclaration = isNewDeclaration;
-        }
-
-        // Require default constructor for serialisation
-        public VariableAssignment() : this(null, false) {}
-
-        public override string ToString ()
-        {
-            return "VarAssign to " + variableName;
-        }
-    }
-}
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:ea679daa8590050fe33f2153c8fe9344dc37c844ffa1c337b94480a8ac54aed3
+size 842

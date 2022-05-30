@@ -1,27 +1,3 @@
-﻿// Cristian Pop - https://boxophobic.com/
-
-using UnityEngine;
-
-namespace Boxophobic.StyledGUI
-{
-    public class StyledInteractive : PropertyAttribute
-    {
-        public int value;
-        public string keyword;
-        public int type;
-
-        public StyledInteractive(int v)
-        {
-            type = 0;
-            value = v;
-        }
-
-        public StyledInteractive(string k)
-        {
-            type = 1;
-            keyword = k;
-        }
-    }
-
-}
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:6b05de4e09c814511bdc6b766601b19defc3dc71be02b0fcef819b0979f1f65d
+size 496

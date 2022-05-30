@@ -1,29 +1,3 @@
-﻿using UnityEngine;
-using System.Collections;
-
-// uses raycast to find ground below this gameobject
-// Note: if this gameobject is in the samelayer as GroundLayer, raycast might hit this gameobject and not ground
-
-namespace TTT
-{
-	public class PlaceOnSurfaceAtStart : MonoBehaviour 
-	{
-
-		public float PivotOffset = 0f;
-		public float RayOffset = 100; // how high above we shoot ray down
-		public LayerMask GroundLayer;
-
-
-		void Start () 
-		{
-			if(((1<<gameObject.layer) & GroundLayer) != 0) Debug.LogWarning("GameObject is in the same layer as raycasting layer, raycast might hit gameobject instead of ground");
-						
-			RaycastHit hit;
-			if (Physics.Raycast(transform.position+Vector3.up*RayOffset, -Vector3.up, out hit, Mathf.Infinity, GroundLayer)) 
-			{
-				var distanceToGround = hit.distance - PivotOffset - RayOffset;
-				transform.Translate(-Vector3.up * distanceToGround, Space.World);
-			}
-		}
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:79e235a3977a997520b06bfb7cba8397619d5ee86efd05b98ecbf2c506f4f721
+size 914

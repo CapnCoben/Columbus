@@ -1,20 +1,3 @@
-﻿using System;
-
-namespace Ink.Runtime
-{
-    public class Tag : Runtime.Object
-    {
-        public string text { get; private set; }
-
-        public Tag (string tagText)
-        {
-            this.text = tagText;
-        }
-
-        public override string ToString ()
-        {
-            return "# " + text;
-        }
-    }
-}
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:19495f549d1cc01ad4f39df47e784be067164e024025a6c907d35e452b280001
+size 350

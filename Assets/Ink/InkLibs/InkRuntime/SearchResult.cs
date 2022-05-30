@@ -1,18 +1,3 @@
-﻿using System;
-namespace Ink.Runtime
-{
-    // When looking up content within the story (e.g. in Container.ContentAtPath),
-    // the result is generally found, but if the story is modified, then when loading
-    // up an old save state, then some old paths may still exist. In this case we
-    // try to recover by finding an approximate result by working up the story hierarchy
-    // in the path to find the closest valid container. Instead of crashing horribly,
-    // we might see some slight oddness in the content, but hopefully it recovers!
-    public struct SearchResult
-    {
-        public Runtime.Object obj;
-        public bool approximate;
-
-        public Runtime.Object correctObj { get { return approximate ? null : obj; } }
-        public Container container { get { return obj as Container; } }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:833ef827ffbfbc6ef9de4eca9d0c224f4b6da1f093c767f9a433e0e672cdc9f9
+size 840

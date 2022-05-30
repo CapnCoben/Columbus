@@ -1,26 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class CameraController : MonoBehaviour
-{
-    private float xRot;
-    [SerializeField] public Camera cam;
-    [SerializeField] private float sensitivity;
-    [SerializeField] private float minCamVeiw, maxCamVeiw;
-    void Update()
-    {
-
-    
-        float mouseX = Input.GetAxis("Mouse X") * sensitivity * Time.deltaTime;
-        float mouseY = Input.GetAxis("Mouse Y") * sensitivity * Time.deltaTime;
-        xRot -= mouseY;
-        xRot = Mathf.Clamp(xRot, minCamVeiw, maxCamVeiw);
-        cam.transform.localRotation = Quaternion.Euler(xRot, 0, 0);
-        transform.Rotate(Vector3.zero, mouseX);
-    }
-
-
-
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:621362692921276a9f7fe01d2017a5931ef408ba2ca6c0803f8c8fb33e13e3bd
+size 5571

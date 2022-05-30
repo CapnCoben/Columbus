@@ -1,34 +1,3 @@
-﻿// Cristian Pop - https://boxophobic.com/
-
-using UnityEngine;
-
-namespace Boxophobic.StyledGUI
-{
-    public class StyledText : PropertyAttribute
-    {
-        public string text = "";
-        public TextAnchor alignment = TextAnchor.MiddleCenter;
-        public bool disabled = false;
-        public float top = 0;
-        public float down = 0;
-
-        public StyledText()
-        {
-        }
-
-        public StyledText(TextAnchor alignment, bool disabled)
-        {
-            this.alignment = alignment;
-            this.disabled = disabled;
-        }
-
-        public StyledText(TextAnchor alignment, bool disabled, float top, float down)
-        {
-            this.alignment = alignment;
-            this.disabled = disabled;
-            this.top = top;
-            this.down = down;
-        }
-    }
-}
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:aab15442b1caa0090efc615ded59fae0e030be5e24150597e8fc6a1cd18ab05c
+size 845

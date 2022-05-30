@@ -1,30 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.Audio;
-
-public class BlendMusic : MonoBehaviour
-{
-    public AudioSource s1;
-    public AudioSource s2;
-
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
-    public void OnTriggerEnter(Collider other)
-    {
-        if(other.gameObject.tag == "Player")
-        {
-            if(s1.volume >= .5)
-            {
-                Mathf.Lerp(s1.volume, 0, .5f);
-                Mathf.Lerp(s2.volume, 1, .5f);
-            }
-        }    
-    }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5821ecf6df16e00c8e54fccfafff560b9afa95afeea7ebe38d50a7730e6870e9
+size 589

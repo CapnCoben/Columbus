@@ -1,22 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class Compass : MonoBehaviour
-{
-    public Transform player;
-    Vector3 vector;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        vector.z = player.eulerAngles.y;
-        transform.localEulerAngles = vector;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1eeaa485bc77e86866804e8a98d95cf6387e6d116a90b00950abf6dd6c2c7922
+size 440

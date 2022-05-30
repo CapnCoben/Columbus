@@ -1,4 +1,3 @@
-newmtl New_Material
-Kd 1 1 1
-d 1
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:d4161fe024d36abf637744a8d21bc57e9064c08c3a553f9426036674311d3cd0
+size 38

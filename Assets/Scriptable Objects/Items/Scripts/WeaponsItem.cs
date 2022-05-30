@@ -1,15 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-
-[CreateAssetMenu(fileName = "New Weapon Object", menuName = "Inventory System/Items/Weapon", order = 6)]
-public class WeaponsItem : ItemObjects
-{
-
-    public void Awake()
-    {
-        type = ItemType.Weapons; 
-    }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ac5ef32ea4c9818d79b4d889bd873938aa27b9e27b3a95dd48ee77edd43eb472
+size 316

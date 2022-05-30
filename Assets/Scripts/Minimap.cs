@@ -1,24 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class Minimap : MonoBehaviour
-{
-    public Transform playerPos;
-    private void LateUpdate()
-    {
-        Vector3 newPos = playerPos.position;
-        newPos.y = transform.position.y;
-        transform.position = newPos;
-
-        transform.rotation = Quaternion.Euler(90f, playerPos.eulerAngles.y, 0f);
-
-    }
-
-
-
-
-}
-
-
-   
+version https://git-lfs.github.com/spec/v1
+oid sha256:977a376822360423fc7be5787af80dc0ef9f90fa0df6e56867293b379584354c
+size 433

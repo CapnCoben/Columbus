@@ -1,33 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-namespace DialogueEditor
-{
-    public abstract class SetParamAction
-    {
-        public enum eParamActionType
-        {
-            Int,
-            Bool
-        }
-
-        public abstract eParamActionType ParamActionType { get; }
-
-        public string ParameterName;
-    }
-
-    public class SetIntParamAction : SetParamAction
-    {
-        public override eParamActionType ParamActionType { get { return eParamActionType.Int; } }
-
-        public int Value;
-    }
-
-    public class SetBoolParamAction : SetParamAction
-    {
-        public override eParamActionType ParamActionType { get { return eParamActionType.Bool; } }
-
-        public bool Value;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1efbef61a19f85ee66f0672e9927dade0a084fc4ae4c486f00cdee944ecd4ac0
+size 777

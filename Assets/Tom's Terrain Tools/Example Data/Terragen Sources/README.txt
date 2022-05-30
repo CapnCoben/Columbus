@@ -1,9 +1,3 @@
-This file contains the three Terragen 2 files that were used to render the
-images that you can find in the "Assets/Example Data" folder. These files
-are provided here as a reference and help if you want to set up your own
-terrains in Terragen 2.
-
-A detailed description of the workflow can be found at
-http://lemuria.org/Unity/TTT/Terragen_Workflow.html
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:bbc95f4a2f0834fb9f17d4848f7d0c93ee0744cd52082bba074b0f7450614314
+size 356

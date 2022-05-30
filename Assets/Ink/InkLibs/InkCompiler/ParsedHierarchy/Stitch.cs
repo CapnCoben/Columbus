@@ -1,14 +1,3 @@
-﻿using System.Collections.Generic;
-
-namespace Ink.Parsed
-{
-	public class Stitch : FlowBase
-	{
-        public override FlowLevel flowLevel { get { return FlowLevel.Stitch; } }
-
-        public Stitch (Identifier name, List<Parsed.Object> topLevelObjects, List<Argument> arguments, bool isFunction) : base(name, topLevelObjects, arguments, isFunction)
-		{
-		}
-	}
-}
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:cb0da069c35ca504b386e44cfad8127060e5f19e8d17559777122810930ea1da
+size 379

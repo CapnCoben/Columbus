@@ -1,25 +1,3 @@
-﻿using UnityEngine;
-
-namespace Boxophobic.StyledGUI
-{
-    public class StyledCategory : PropertyAttribute
-    {
-        public string category;
-        public int top;
-        public int down;
-
-        public StyledCategory(string category)
-        {
-            this.category = category;
-            this.top = 10;
-            this.down = 10;
-        }
-        public StyledCategory(string category, int spaceTop, int spaceBottom)
-        {
-            this.category = category;
-            this.top = spaceTop;
-            this.down = spaceBottom;
-        }
-    }
-}
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:625b204e70337bf6459f454404bfaf4d2e7c741ff2e957b18601657db4bc50b1
+size 596

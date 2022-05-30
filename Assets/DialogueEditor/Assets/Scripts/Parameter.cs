@@ -1,32 +1,3 @@
-﻿namespace DialogueEditor
-{
-    public abstract class Parameter
-    {
-        public Parameter(string name)
-        {
-            ParameterName = name;
-        }
-
-        public string ParameterName;
-    }
-
-    public class BoolParameter : Parameter
-    {
-        public BoolParameter(string name, bool defaultValue) : base(name)
-        {
-            BoolValue = defaultValue;
-        }
-
-        public bool BoolValue;
-    }
-
-    public class IntParameter : Parameter
-    {
-        public IntParameter(string name, int defalutValue) : base(name)
-        {
-            IntValue = defalutValue;
-        }
-
-        public int IntValue;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4da6207a5fcad3266ed16059b0bdeff826a236ca90871f6d85fffa4c36883cb3
+size 674

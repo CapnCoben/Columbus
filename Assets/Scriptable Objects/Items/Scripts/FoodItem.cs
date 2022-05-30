@@ -1,14 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-
-[CreateAssetMenu(fileName = "New Food Object", menuName = "Inventory System/Items/Food", order = 5)]
-public class FoodItem : ItemObjects
-{
-    public void Awake()
-    { 
-        type = ItemType.Food;
-    }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2f4214f58f1ca49bd05704db1b1a7023931539b9bb81c9dd0d7257a48e0aea31
+size 304
